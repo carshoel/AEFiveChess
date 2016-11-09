@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A1DB2B61DD195D80076FF43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1DB2B51DD195D80076FF43 /* main.m */; };
+		7A1DB2B91DD195D80076FF43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1DB2B81DD195D80076FF43 /* AppDelegate.m */; };
+		7A1DB2BC1DD195D80076FF43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1DB2BB1DD195D80076FF43 /* ViewController.m */; };
+		7A1DB2C11DD195D80076FF43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A1DB2C01DD195D80076FF43 /* Assets.xcassets */; };
+		7A1DB2C41DD195D80076FF43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A1DB2C21DD195D80076FF43 /* LaunchScreen.storyboard */; };
+		7A1DB2D21DD196120076FF43 /* AEFiveChessboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1DB2CD1DD196120076FF43 /* AEFiveChessboard.m */; };
+		7A1DB2D31DD196120076FF43 /* YWChess.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1DB2CF1DD196120076FF43 /* YWChess.m */; };
+		7A1DB2D41DD196120076FF43 /* YWUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1DB2D11DD196120076FF43 /* YWUser.m */; };
+		7A1DB2D61DD197650076FF43 /* awei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A1DB2D51DD197650076FF43 /* awei.jpg */; };
+		7A1DB2D81DD1976F0076FF43 /* qifang.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A1DB2D71DD1976F0076FF43 /* qifang.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7A1DB2B11DD195D80076FF43 /* AEFiveChess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AEFiveChess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A1DB2B51DD195D80076FF43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A1DB2B71DD195D80076FF43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7A1DB2B81DD195D80076FF43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7A1DB2BA1DD195D80076FF43 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7A1DB2BB1DD195D80076FF43 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7A1DB2C01DD195D80076FF43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A1DB2C31DD195D80076FF43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A1DB2C51DD195D80076FF43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A1DB2CC1DD196120076FF43 /* AEFiveChessboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEFiveChessboard.h; sourceTree = "<group>"; };
+		7A1DB2CD1DD196120076FF43 /* AEFiveChessboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEFiveChessboard.m; sourceTree = "<group>"; };
+		7A1DB2CE1DD196120076FF43 /* YWChess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWChess.h; sourceTree = "<group>"; };
+		7A1DB2CF1DD196120076FF43 /* YWChess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWChess.m; sourceTree = "<group>"; };
+		7A1DB2D01DD196120076FF43 /* YWUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWUser.h; sourceTree = "<group>"; };
+		7A1DB2D11DD196120076FF43 /* YWUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWUser.m; sourceTree = "<group>"; };
+		7A1DB2D51DD197650076FF43 /* awei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = awei.jpg; sourceTree = "<group>"; };
+		7A1DB2D71DD1976F0076FF43 /* qifang.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = qifang.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A1DB2AE1DD195D80076FF43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A1DB2A81DD195D80076FF43 = {
+			isa = PBXGroup;
+			children = (
+				7A1DB2B31DD195D80076FF43 /* AEFiveChess */,
+				7A1DB2B21DD195D80076FF43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A1DB2B21DD195D80076FF43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A1DB2B11DD195D80076FF43 /* AEFiveChess.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A1DB2B31DD195D80076FF43 /* AEFiveChess */ = {
+			isa = PBXGroup;
+			children = (
+				7A1DB2CB1DD196120076FF43 /* libView */,
+				7A1DB2B71DD195D80076FF43 /* AppDelegate.h */,
+				7A1DB2B81DD195D80076FF43 /* AppDelegate.m */,
+				7A1DB2BA1DD195D80076FF43 /* ViewController.h */,
+				7A1DB2BB1DD195D80076FF43 /* ViewController.m */,
+				7A1DB2C01DD195D80076FF43 /* Assets.xcassets */,
+				7A1DB2C21DD195D80076FF43 /* LaunchScreen.storyboard */,
+				7A1DB2C51DD195D80076FF43 /* Info.plist */,
+				7A1DB2B41DD195D80076FF43 /* Supporting Files */,
+			);
+			path = AEFiveChess;
+			sourceTree = "<group>";
+		};
+		7A1DB2B41DD195D80076FF43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A1DB2B51DD195D80076FF43 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A1DB2CB1DD196120076FF43 /* libView */ = {
+			isa = PBXGroup;
+			children = (
+				7A1DB2D71DD1976F0076FF43 /* qifang.jpg */,
+				7A1DB2D51DD197650076FF43 /* awei.jpg */,
+				7A1DB2CC1DD196120076FF43 /* AEFiveChessboard.h */,
+				7A1DB2CD1DD196120076FF43 /* AEFiveChessboard.m */,
+				7A1DB2CE1DD196120076FF43 /* YWChess.h */,
+				7A1DB2CF1DD196120076FF43 /* YWChess.m */,
+				7A1DB2D01DD196120076FF43 /* YWUser.h */,
+				7A1DB2D11DD196120076FF43 /* YWUser.m */,
+			);
+			path = libView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A1DB2B01DD195D80076FF43 /* AEFiveChess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A1DB2C81DD195D80076FF43 /* Build configuration list for PBXNativeTarget "AEFiveChess" */;
+			buildPhases = (
+				7A1DB2AD1DD195D80076FF43 /* Sources */,
+				7A1DB2AE1DD195D80076FF43 /* Frameworks */,
+				7A1DB2AF1DD195D80076FF43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AEFiveChess;
+			productName = AEFiveChess;
+			productReference = 7A1DB2B11DD195D80076FF43 /* AEFiveChess.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A1DB2A91DD195D80076FF43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = carshoel;
+				TargetAttributes = {
+					7A1DB2B01DD195D80076FF43 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7A1DB2AC1DD195D80076FF43 /* Build configuration list for PBXProject "AEFiveChess" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A1DB2A81DD195D80076FF43;
+			productRefGroup = 7A1DB2B21DD195D80076FF43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A1DB2B01DD195D80076FF43 /* AEFiveChess */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A1DB2AF1DD195D80076FF43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1DB2C41DD195D80076FF43 /* LaunchScreen.storyboard in Resources */,
+				7A1DB2D61DD197650076FF43 /* awei.jpg in Resources */,
+				7A1DB2C11DD195D80076FF43 /* Assets.xcassets in Resources */,
+				7A1DB2D81DD1976F0076FF43 /* qifang.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A1DB2AD1DD195D80076FF43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1DB2BC1DD195D80076FF43 /* ViewController.m in Sources */,
+				7A1DB2B91DD195D80076FF43 /* AppDelegate.m in Sources */,
+				7A1DB2D31DD196120076FF43 /* YWChess.m in Sources */,
+				7A1DB2B61DD195D80076FF43 /* main.m in Sources */,
+				7A1DB2D41DD196120076FF43 /* YWUser.m in Sources */,
+				7A1DB2D21DD196120076FF43 /* AEFiveChessboard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7A1DB2C21DD195D80076FF43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A1DB2C31DD195D80076FF43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A1DB2C61DD195D80076FF43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7A1DB2C71DD195D80076FF43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A1DB2C91DD195D80076FF43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AEFiveChess/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ywmonitor.AEFiveChess;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		7A1DB2CA1DD195D80076FF43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AEFiveChess/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ywmonitor.AEFiveChess;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A1DB2AC1DD195D80076FF43 /* Build configuration list for PBXProject "AEFiveChess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A1DB2C61DD195D80076FF43 /* Debug */,
+				7A1DB2C71DD195D80076FF43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A1DB2C81DD195D80076FF43 /* Build configuration list for PBXNativeTarget "AEFiveChess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A1DB2C91DD195D80076FF43 /* Debug */,
+				7A1DB2CA1DD195D80076FF43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A1DB2A91DD195D80076FF43 /* Project object */;
+}
